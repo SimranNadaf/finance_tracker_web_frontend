@@ -1,0 +1,32 @@
+
+.Item {
+	text-align: center;
+	flex: 1;
+	width: 70%;
+	height: fit-content;
+	margin: 30px 10% 30px 10%;
+	padding: 0px 30px 0px 30px;
+	background-color: white;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 1px;
+	box-shadow: 0px 4px 8px rgb(132, 132, 132);
+}
+.ItemRow {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+.ItemCol {
+	text-align: center;
+	flex: 1;
+}
+.actionButton {
+	border: none;
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px 20px 0px 10px;
+	cursor: pointer;
+}

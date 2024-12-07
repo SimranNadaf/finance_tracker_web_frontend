@@ -1,0 +1,32 @@
+ul {
+	display: inline-block;
+	margin-left: 60%;
+	list-style-type: none;
+}
+ul li {
+	display: inline;
+	margin: 30px;
+}
+li:hover {
+	color:  rgb(78, 161, 206);
+	font-size: large;
+	cursor: pointer;
+}
+.navTitle {
+	display : inline-block;
+	margin: 20px;
+}
+.navTitle:hover {
+	color: rgb(78, 161, 206);
+	cursor: pointer;
+	font-weight: bolder;
+	font-size: larger;
+}
+nav {
+	display : inline-block;
+	height: auto;
+	background-color: rgb(194, 244, 244);
+	border-radius: 7px;
+	margin: 0px;
+	width: 100%;
+}

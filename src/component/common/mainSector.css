@@ -1,0 +1,34 @@
+.Sector {
+	display: table-column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 350px;
+	background-color: rgb(211, 211, 248);
+	border-radius: 10px;
+	border-width: 1px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.Sector::-webkit-scrollbar {
+	width: 2px;
+  }
+  
+  .Sector::-webkit-scrollbar-track {
+	background-color: rgb(211, 211, 248);
+	border-radius: 2px;
+}
+  
+  .Sector::-webkit-scrollbar-thumb {
+	background: #c2c1c1;
+  }
+  
+  .Sector::-webkit-scrollbar-thumb:hover {
+	background: gray;
+  }
+  
+  .Sector::-webkit-scrollbar-button {
+	background: rgba(187, 187, 187, 0.698);
+	border-radius: 10px;
+  }
