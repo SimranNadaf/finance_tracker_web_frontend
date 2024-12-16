@@ -1,10 +1,6 @@
-import Modal from './modal';
 import './addExpIn.css';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addExpense } from '../data_state/expense';
-//import { addIncome } from '../data_state/income';
-import { v4 } from 'uuid';
 import IncomeModal from './common/incomeModal';
 import ExpenseModal from './common/expenseModal';
 

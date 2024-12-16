@@ -38,11 +38,13 @@ const IncomeModal = ({isIncomeOpen, closeIncome, idx, iSource, iDate, iAmount, a
 		setIncomeAmount(1);
 		setIncomeDate(new Date().toISOString().split("T")[0]);
 		closeIncome();
+		alert("log added successfully!!");
 	}
 	function UpdateIncome() {
 		console.log(idx, incomeSource, incomeDate, incomeAmount);
 		dispatch(updateIncome({id: idx, title: incomeSource, date: incomeDate, amount: incomeAmount}));
 		closeIncome();
+		alert("log updated successfully!!");
 	}
 	return (
 		<Modal isOpen={isIncomeOpen} onClose={closeIncome}>

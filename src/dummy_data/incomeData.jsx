@@ -14,7 +14,7 @@ const IncomeData = [
 	{
 		id: 3,
 		title: "Stock",
-		date: '202412-03',
+		date: '2024-12-03',
 		amount: 20000,
 	},
 ];

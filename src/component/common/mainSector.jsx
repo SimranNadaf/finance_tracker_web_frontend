@@ -30,13 +30,17 @@ const MainSector = ({title}) => {
 
 	function onDelete(id, tit) {
 		console.log(title);
+		if(confirm("are going to delete this log?")){
 		if(tit == "My Expense") {
 			console.log(title);
 			dispatch(deleteExpense({id:id}));
+			alert("This Log Deleted Successfully!!");
 		}
 		else {
 			console.log(title);
 			dispatch(deleteIncome({id:id}));
+			alert("This Log Deleted Successfully!!");
+		}
 		}
 	}
 

@@ -49,12 +49,14 @@ const ExpenseModal = ({isExpenseOpen, closeExpense, idx, eTitle, eDate, eAmount,
 		setExpenseAmount(1);
 		setExpenseDate(new Date().toISOString().split("T")[0]);
 		closeExpense();
+		alert("log added successfully!!");
 	}
 
 	function UpdateExp() {
 		console.log(idx, expenseTitle, expenseDate, expenseAmount);
 		dispatch(updateExpense({id: idx, title: expenseTitle, date: expenseDate, amount: expenseAmount}));
 		closeExpense();
+		alert("log updated successfully!!");
 	}
 
 	return (
